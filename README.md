@@ -8,7 +8,7 @@ ___
 
 ## Prerequis
 
-Il est necessaire d'avoir un serveur Apache2 avec PHP de version minimum 7.2.
+Il est necessaire d'avoir un serveur Apache2 avec PHP de version minimum 7.2.<br/>
 Il faut également une base de données MySQL ou MariaDB et un client du type PhpMyAdmin.
 
 ## Installation
