@@ -17,23 +17,23 @@ Il faut également une base de données MySQL ou MariaDB et un client du type Ph
 
 2. Configurer l'accès au serveur de données dans le fichier .env
 
-```INI
-DATABASE_URL=mysql://root:@127.0.0.1:3306/secureapp?serverVersion=5.7
-```
+    ```INI
+    DATABASE_URL=mysql://root:@127.0.0.1:3306/secureapp?serverVersion=5.7
+    ```
 
 3. Installer les composants :
 
-```Bash
-    composer install
-```
+    ```Bash
+        composer install
+    ```
 
 4. Créer la base de données :
 
-```Bash
-php bin/console doctrine:database:create
-php bin/console doctrine:migrations:migrate
-php bin/console doctrine:fixtures:load
-```
+    ```Bash
+    php bin/console doctrine:database:create
+    php bin/console doctrine:migrations:migrate
+    php bin/console doctrine:fixtures:load
+    ```
 
 ___
 
