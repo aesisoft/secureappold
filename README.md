@@ -8,13 +8,19 @@ ___
 
 ## Prerequis
 
-Il est necessaire d'avoir un serveur Apache2 avec PHP de version minimum 7.2.<br/>
+Il est nécessaire d'avoir un serveur Apache2 avec PHP de version minimum 7.2.<br/>
 Il faut également une base de données MySQL ou MariaDB et un client du type PhpMyAdmin.
 
 ## Installation
 
-1. Cloner l'application sur votre serveur Apache localhost
+1. Cloner l'application en local
+
 2. Configurer l'accès au serveur de données dans le fichier .env
+
+```INI
+DATABASE_URL=mysql://root:@127.0.0.1:3306/secureapp?serverVersion=5.7
+```
+
 3. Installer les composants :
 
 ```Bash
