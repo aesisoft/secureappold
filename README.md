@@ -42,17 +42,17 @@ ___
 Pour chiffre/déchiffrer les DCP, il faut activer la bibliothèque ***libsodium*** disponible à partir de la version PHP 7.2 :
 
 ```INI
-    extension=sodium
+extension=sodium
 ```
 
 Si vous avez une erreur d'installation des composants, vous devrez peut-être augmenter la taille de la mémoire utilisée par PHP.
 
 ```INI
-    memory_limit = 512M
+memory_limit = 512M
 ```
 
 Pour tester la taille actuelle :
 
 ```Bash
-    php -r "echo ini_get('memory_limit').PHP_EOL;"
+php -r "echo ini_get('memory_limit').PHP_EOL;"
 ```
