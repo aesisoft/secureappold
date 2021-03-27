@@ -10,7 +10,7 @@ ___
 
 Il est nécessaire d'avoir un serveur Apache2 avec PHP de version minimum 7.2.<br/>
 Il faut également une base de données MySQL ou MariaDB et un client du type PhpMyAdmin.<br/>
-La version de Symfony utilisée pour créer ce projet est 5.2.5 et de Composer est 2.0.11.
+La version de Symfony utilisée pour créer ce projet est 5.2.5, celle de Composer est 2.0.11.
 
 ## Installation
 
