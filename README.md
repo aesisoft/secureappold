@@ -24,7 +24,7 @@ La version de Symfony utilisée pour créer ce projet est 5.2.5, celle de Compos
 
     ```INI
     DATABASE_URL=mysql://root:@127.0.0.1:3306/secureapp?serverVersion=mariadb-10.4.18
-        ```
+    ```
 
 3. Installer les composants :
 
