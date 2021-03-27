@@ -29,7 +29,7 @@ La version de Symfony utilisée pour créer ce projet est 5.2.5, celle de Compos
 3. Installer les composants :
 
     ```Bash
-        composer install
+    composer install
     ```
 
 4. Créer la base de données :
