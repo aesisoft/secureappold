@@ -16,11 +16,15 @@ La version de Symfony utilisée pour créer ce projet est 5.2.5, celle de Compos
 
 1. Cloner l'application en local
 
-2. Configurer l'accès au serveur de données dans le fichier .env
+2. Configurer l'accès au serveur de données dans le fichier .env, en fonction de la version de votre serveur Sql :
 
     ```INI
     DATABASE_URL=mysql://root:@127.0.0.1:3306/secureapp?serverVersion=5.7
     ```
+
+    ```INI
+    DATABASE_URL=mysql://root:@127.0.0.1:3306/secureapp?serverVersion=mariadb-10.4.18
+        ```
 
 3. Installer les composants :
 
